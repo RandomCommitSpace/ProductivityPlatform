@@ -17,3 +17,7 @@ print("FIFO:", [t.title for t in schedule.tasks])
 service.set_strategy(PriorityScheduler())
 schedule = service.generate_schedule(tasks)
 print("Priority:", [t.title for t in schedule.tasks])
+
+
+
+# python -m tests.task_test
