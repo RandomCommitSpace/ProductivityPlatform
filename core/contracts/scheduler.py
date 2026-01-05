@@ -6,7 +6,6 @@ from typing import List
 from task_engine.domain.task import Task
 from task_engine.domain.schedule import Schedule
 
-
 class SchedulerStrategy(ABC):
     """Strategy interface for task scheduling algorithms."""
 
